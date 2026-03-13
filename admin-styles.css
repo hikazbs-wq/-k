@@ -1,0 +1,38 @@
+/* Admin Panel Styles */
+
+body.admin-panel {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header.admin-header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    background: #232323;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+footer.admin-footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
