@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Listing and Offer System</title>
+</head>
+<body>
+    <h1>Vehicle Listing and Offer System</h1>
+    <div id="vehicle-list">
+        <h2>Available Vehicles</h2>
+        <ul>
+            <li>Vehicle 1 - <button>Make an Offer</button></li>
+            <li>Vehicle 2 - <button>Make an Offer</button></li>
+            <li>Vehicle 3 - <button>Make an Offer</button></li>
+        </ul>
+    </div>
+    <div id="offer-form">
+        <h2>Make an Offer</h2>
+        <form>
+            <label for="vehicle">Select Vehicle:</label>
+            <select id="vehicle" name="vehicle">
+                <option value="vehicle1">Vehicle 1</option>
+                <option value="vehicle2">Vehicle 2</option>
+                <option value="vehicle3">Vehicle 3</option>
+            </select>
+            <br/>
+            <label for="offer">Your Offer:</label>
+            <input type="text" id="offer" name="offer" required />
+            <br/>
+            <button type="submit">Submit Offer</button>
+        </form>
+    </div>
+</body>
+</html>
